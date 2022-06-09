@@ -21,9 +21,8 @@
 <a href="https://vaalchemist.github.io/wheatheredForecast/">DWheathered Forecast</a> 
 
 # Photos
-![]()
-![]()
-
+![demo photo](assets\imgs\)
+![demo photo](assets\imgs\)
 
 # Installation
 
