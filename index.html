@@ -6,33 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Quicksand:wght@300&display=swap"
+    rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
   <title>Weather Forecast</title>
 </head>
 
-<body>
-  <header class="">
+<body class="grid w-full h-full">
+  <header class="border-4 bg-blue-500 h-20 w-screen p-2 text-center text-xl font-bold">
     <h1>How's The Weather?</h1>
   </header>
 
-  <div>
+  <div class="grid grid-cols-2 mt-12">
 
-    <h2>Pick a City</h2>
-    <form id="">
-      <input type="text" id="" class="" />
-      <button type="submit" id="" class="">Search</button>
-      <div id="">search results here..</div>
-    </form>
+    <div class="">
+      <h2 class="font-semibold text-blue-700 p-4">Pick a City :</h2>
+      <form id="search-form" class="grid">
+        <input type="text" id="search-input" class="border-4" />
+        <button type="submit" id="search-btn" class="border-2 mx-12 my-2 ">Search</button>
+        <div id="" class="border w-full h-full p-4">search results here..</div>
+      </form>
+    </div>
     
-  </div>
-
-  <div>
-
-  <section id="" class="">current forecast here..</section>
-  <section id="" class="">future forecast here..</section>
+    
+    
+      <section id="current-cast" class="border p-8 mt-6 w-full">current forecast here..</section>
+      <section id="future-cast" class="border p-4 m-2 w-screen">future forecast here..</section>
 
   </div>
+
+  
 
 <script src="./assets/js/script.js"></script>
 </body>
