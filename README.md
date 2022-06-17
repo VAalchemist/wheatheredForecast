@@ -18,11 +18,12 @@
   * A weather dashboard that dynamically updates HTML and CSS. Retrieving weather data for cities.
 
 # Deployed Page
-<a href="https://vaalchemist.github.io/wheatheredForecast/">DWheathered Forecast</a> 
+<a href="https://vaalchemist.github.io/wheatheredForecast/">Wheathered Forecast</a> 
 
 # Photos
-![demo photo](assets\imgs\)
-![demo photo](assets\imgs\)
+![demo photo](assets\images\snap2.PNG)
+![demo photo](assets\images\snap1.PNG)
+
 
 # Installation
 
